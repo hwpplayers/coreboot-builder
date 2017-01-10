@@ -12,4 +12,3 @@
                 .card-action
                   = link_to('Twitter', "https://twitter.com/#{media.fetch(:twitter)}", target: 'blank') if media.has_key?(:twitter)
                   = link_to('Github', "https://github.com/#{media.fetch(:github)}", target: '_blank') if media.has_key?(:github)
-= render 'footer'
