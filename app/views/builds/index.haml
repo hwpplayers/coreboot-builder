@@ -2,7 +2,7 @@
   = form_for :build, url: builds_path, method: :post do |f|
     = f.hidden_field :email, value: @email
     .row
-      .col.s12.input-field 
+      .col.s12.input-field
         = f.submit 'New build', class: 'btn orange lighten-3 black-text'
         %ul
           - @builds.each do |build|
