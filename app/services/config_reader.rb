@@ -45,7 +45,7 @@ class ConfigReader
       vendor: vendor,
       name: json_data.fetch('device'),
       commit: json_data.fetch('commit'),
-      needs_rom_dump: json_data.fetch('blobs') == 'yes'
+      needs_rom_dump: json_data.fetch('blobs') == 'Yes'
     )
   end
 
