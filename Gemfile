@@ -26,7 +26,7 @@ gem 'jenkins_api_client', '1.4.2', require: false
 
 gem 'haml-rails', '0.9.0'
 
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'carrierwave-ftp', '~> 0.2.8', require: 'carrierwave/storage/sftp'
 
 gem 'dotenv-rails'
